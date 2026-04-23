@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F8E9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Catálogo de Frutas"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="20dp"/>
+
+        <ImageButton
+            android:id="@+id/btnBananas"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/bananas"
+            android:scaleType="centerCrop"
+            android:background="@drawable/fruit_button_bg"
+            android:layout_margin="10dp"
+            android:padding="8dp"
+            android:contentDescription="Bananas"/>
+
+        <ImageButton
+            android:id="@+id/btnCerezas"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/cerezas"
+            android:scaleType="centerCrop"
+            android:background="@drawable/fruit_button_bg"
+            android:layout_margin="10dp"
+            android:padding="8dp"
+            android:contentDescription="Cerezas"/>
+
+        <ImageButton
+            android:id="@+id/btnFrambuesas"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/frambuesas"
+            android:scaleType="centerCrop"
+            android:background="@drawable/fruit_button_bg"
+            android:layout_margin="10dp"
+            android:padding="8dp"
+            android:contentDescription="Frambuesas"/>
+
+        <ImageButton
+            android:id="@+id/btnFresas"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/fresas"
+            android:scaleType="centerCrop"
+            android:background="@drawable/fruit_button_bg"
+            android:layout_margin="10dp"
+            android:padding="8dp"
+            android:contentDescription="Fresas"/>
+
+        <ImageButton
+            android:id="@+id/btnKiwis"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/kiwis"
+            android:scaleType="centerCrop"
+            android:background="@drawable/fruit_button_bg"
+            android:layout_margin="10dp"
+            android:padding="8dp"
+            android:contentDescription="Kiwis"/>
+
+        <ImageButton
+            android:id="@+id/btnMangos"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/mangos"
+            android:scaleType="centerCrop"
+            android:background="@drawable/fruit_button_bg"
+            android:layout_margin="10dp"
+            android:padding="8dp"
+            android:contentDescription="Mangos"/>
+
+        <ImageButton
+            android:id="@+id/btnManzanas"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/manzanas"
+            android:scaleType="centerCrop"
+            android:background="@drawable/fruit_button_bg"
+            android:layout_margin="10dp"
+            android:padding="8dp"
+            android:contentDescription="Manzanas"/>
+
+        <ImageButton
+            android:id="@+id/btnMelon"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/melon"
+            android:scaleType="centerCrop"
+            android:background="@drawable/fruit_button_bg"
+            android:layout_margin="10dp"
+            android:padding="8dp"
+            android:contentDescription="Melón"/>
+
+        <ImageButton
+            android:id="@+id/btnNaranjas"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/naranjas"
+            android:scaleType="centerCrop"
+            android:background="@drawable/fruit_button_bg"
+            android:layout_margin="10dp"
+            android:padding="8dp"
+            android:contentDescription="Naranjas"/>
+
+        <ImageButton
+            android:id="@+id/btnPera"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/pera"
+            android:scaleType="centerCrop"
+            android:background="@drawable/fruit_button_bg"
+            android:layout_margin="10dp"
+            android:padding="8dp"
+            android:contentDescription="Pera"/>
+
+        <ImageButton
+            android:id="@+id/btnPina"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/pina"
+            android:scaleType="centerCrop"
+            android:background="@drawable/fruit_button_bg"
+            android:layout_margin="10dp"
+            android:padding="8dp"
+            android:contentDescription="Piña"/>
+
+        <ImageButton
+            android:id="@+id/btnSandia"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/sandia"
+            android:scaleType="centerCrop"
+            android:background="@drawable/fruit_button_bg"
+            android:layout_margin="10dp"
+            android:padding="8dp"
+            android:contentDescription="Sandía"/>
+
+        <ImageButton
+            android:id="@+id/btnUvas"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/uvas"
+            android:scaleType="centerCrop"
+            android:background="@drawable/fruit_button_bg"
+            android:layout_margin="10dp"
+            android:padding="8dp"
+            android:contentDescription="Uvas"/>
+
+        <ImageButton
+            android:id="@+id/btnZarzamora"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/zarzamora"
+            android:scaleType="centerCrop"
+            android:background="@drawable/fruit_button_bg"
+            android:layout_margin="10dp"
+            android:padding="8dp"
+            android:contentDescription="Zarzamora"/>
+
+    </LinearLayout>
+</ScrollView>
